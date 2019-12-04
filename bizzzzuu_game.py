@@ -1,20 +1,20 @@
 from bizzzzuu_functions import *
 
-number = input('Choose a number: ')
+number = int(input('Choose a number: '))
 
 while True:
-    if div_by_3_and_5(int(number)):
+    if div_by_3_and_5(number):
         print('bizzzzuu')
-        number = input('Choose a number: ')
-    elif div_by_5(int(number)):
+        number = int(input('Choose a number: '))
+    elif div_by_5(number):
         print('zzuu')
-        number = input('Choose a number: ')
-    elif div_by_3(int(number)):
+        number = int(input('Choose a number: '))
+    elif div_by_3(number):
         print('bizz')
-        number = input('Choose a number: ')
-    elif number == 'exit':
+        number = int(input('Choose a number: '))
+    elif number == '0':
         print('exited')
         break
     else:
-        print(int(number))
-        number = input('Choose a number: ')
+        print(number)
+        number = int(input('Choose a number: '))
