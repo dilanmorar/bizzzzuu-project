@@ -18,3 +18,5 @@ print('Should print "True"')
 print(div_by_3_and_5(15))
 print('Should print "False"')
 print(div_by_3_and_5(20))
+
+print((div_by_3(exit)))

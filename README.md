@@ -22,7 +22,7 @@ If the number is a multiple of 3 and 5 then bizzzzuu should be called
 - outputs = 'bizzzzuu'
 
 ## Running the tests
-run the naan_factory_tests.py file
+run the bizzzzuu_tests.py file
 
 ## Running the program
-run the naan_factory_run.py file
+run the bizzzzuu_game.py file
